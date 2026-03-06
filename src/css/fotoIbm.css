@@ -1,0 +1,41 @@
+.carousel {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    /* Esconde as imagens que saem da moldura */
+    border-radius: 10px;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    /* Efeito suave de deslize */
+    width: 100%;
+}
+
+.carousel-container img {
+    width: 100%;
+    /* Cada imagem ocupa 100% da largura do container */
+    flex-shrink: 0;
+}
+
+/* Botões */
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}

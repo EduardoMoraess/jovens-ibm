@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/src/css/fotoIbm.css">
 </head>
+
 <body>
-    <h1>ola mundo</h1>
+    <div class="carousel">
+        <div class="carousel-container" id="track">
+            <img src="https://static.animecorner.me/2022/10/naruto.png" alt="Slide 1">
+            <img src="https://static.animecorner.me/2022/10/naruto.png" alt="Slide 2">
+            <img src="https://static.animecorner.me/2022/10/naruto.png" alt="Slide 3">
+        </div>
+
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="/src/js/fotoIbm.js"></script>
 </body>
+
 </html>
