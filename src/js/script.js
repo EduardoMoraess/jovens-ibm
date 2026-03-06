@@ -18,3 +18,13 @@ function acessarAgenda(){
     })
 }
 acessarAgenda();
+
+//recomendação de musicas
+function musicRecomendacao(){
+    const acessMusic = document.getElementById('acess-music');
+
+    acessMusic.addEventListener('click', ()=>{
+        window.open('https://radio-music.netlify.app/', '_blank');
+    })
+}
+musicRecomendacao();
