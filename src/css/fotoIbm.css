@@ -1,3 +1,5 @@
+@import url(variaveis.css);
+
 :root {
     --bg: #05070a;
     --accent: #ffb800;
@@ -30,12 +32,12 @@
 }
 
 body {
-    background-color: var(--bg);
-    color: white;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-white);
     overflow-x: hidden;
-    line-height: 1.6;
 }
+
 
 /* Background Glow mais suave e dinâmico */
 .bg-glow {
@@ -231,4 +233,13 @@ body {
     .gallery-container { column-count: 2; column-gap: 10px; }
     .pin-item { margin-bottom: 10px; border-radius: 10px; }
     .search-bar { display: none; } /* Opcional: esconde busca em telas muito pequenas */
+}
+
+
+
+
+.text-info{
+    text-align: center;
+    color: #fff;
+    margin: 100px;
 }

@@ -28,3 +28,13 @@ function musicRecomendacao(){
     })
 }
 musicRecomendacao();
+
+//Fotos dos Jovens IBM IPSEP
+function fotosIBM(){
+    const acessFoto = document.getElementById('acess-foto')
+
+    acessFoto.addEventListener('click', ()=>{
+        window.open('src/pages/foto.html', '_blank')
+    })
+}
+fotosIBM()

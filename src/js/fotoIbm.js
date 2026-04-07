@@ -52,7 +52,7 @@ function carregarGaleria() {
         item.className = 'pin-item';
 
         const source = `${CAMINHO_PASTA}${nomeFoto}`;
-        const titulo = `Registro #${index + 1}`;
+        const titulo = `Foto #${index + 1}`;
 
         item.innerHTML = `
             <img src="${source}" alt="${titulo}" loading="lazy" onerror="this.parentElement.style.display='none'">
